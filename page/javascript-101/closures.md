@@ -11,7 +11,7 @@ As shown in the [Scope](/scope/) section, functions have access to changing vari
 
 ```
 // Each function executed within the loop will reference
-// the last value stored in i (5).
+// the last value stored in i (4).
 // This won't behave as we want it to - every 100 milliseconds, 5 will alert
 for ( var i = 0; i < 5; i++ ) {
 	setTimeout(function() {
